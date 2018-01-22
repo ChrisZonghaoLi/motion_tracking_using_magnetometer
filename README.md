@@ -75,7 +75,7 @@ How to install gcc and openocd successfully?
 		(gdb) continue
 
 	13. Now, open ONE MORE NEW TERMINAL and do the following (just test to see if you can retrieve info from the sensor): 
-		- in the tools directory (you will have this directory once all 1-8 steps are finished correctly) you will find two scripts: 		acm_reset.sh and watch.py
+		- in the tools directory (you will have this directory once all 1-8 steps are finished correctly) you will find two scripts: acm_reset.sh and watch.py
 		- for this software the baud rate is 9600 - important to use correct baud rate
 		in tools.
 		Run:
