@@ -41,9 +41,11 @@ How to install gcc and openocd successfully?
     	sudo make install
 
 8. Install Openocd. Go to the website "https://sourceforge.net/projects/openocd/files/latest/download?source=files" and download the openocd, unzip it by running:
+
 	tar xf openocd-0.9.0.tar.bz2
  
 	Run:
+	
 	apt-get build-dep openocd
 	cd openocd-0.9.0/ 
 	./configure --enable-aice --enable-amtjtagaccel --enable-armjtagew --enable-cmsis-dap --enable-dummy \
@@ -63,12 +65,15 @@ How to install gcc and openocd successfully?
 	sudo openocd -f /usr/local/share/openocd/scripts/board/st_nucleo_f4.cfg
 
 11. In ANOTHER terminal, go to "../Motion_Tracking_Using_Magnetometer/gcc4mbed/gcc-arm-none-eabi/bin", run:
+
 	./arm-none-eabi-gdb
 	
 	You will see something like this in terminal:
+	
 	(gdb)
 
 12. In gdb, type:
+
 	(gdb) file ../Motion_Tracking_Using_Magnetometer/gcc4mbed/code/MPU9250AHARS/NUCLEO_F401RE/MPU9250AHARS.elf
     (gdb) target remote :3333
     (gdb) load
@@ -76,7 +81,7 @@ How to install gcc and openocd successfully?
     (gdb) monitor reset
 	(gdb) continue
 
-13.Now, open ONE MORE NEW TERMINAL and do the following (just test to see if you can retrieve info from the sensor): 
+13. Now, open ONE MORE NEW TERMINAL and do the following (just test to see if you can retrieve info from the sensor): 
 	- in the tools directory (you will have this directory once all 1-8 steps are finished correctly) you will find two scripts: 		acm_reset.sh and watch.py
    	- for this software the baud rate is 9600 - important to use correct baud rate
    	in tools.
@@ -115,6 +120,7 @@ Required python packages:
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 To enable serial port on bluetooth communication:
+
 	~$ sudo hcitool scan
 	Scanning ...
 	00:02:C7:7D:F5:17  HC-06
