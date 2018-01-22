@@ -1,0 +1,3 @@
+MPU9250 (9 DoFs MEMS Sensor including magnetometer) - https://www.pygame.org/download.shtml
+HC-06 (Bluetooth Module for enabling wireless information transmission) - http://www.instructables.com/id/Add-bluetooth-to-your-Arduino-project-ArduinoHC-06/
+Arduino Nano (Micro-processor used in this project) - https://store.arduino.cc/usa/arduino-nano
