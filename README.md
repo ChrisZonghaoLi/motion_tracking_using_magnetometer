@@ -113,6 +113,7 @@ Required python packages:
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 To enable serial port on bluetooth communication:
+
 	~$ sudo hcitool scan
 	Scanning ...
 	00:02:C7:7D:F5:17  HC-06
