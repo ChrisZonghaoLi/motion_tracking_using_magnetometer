@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+*.h linguist-language=cpp
+*.cpp linguist-language=cpp
+*.m linguist-language=matlab
+*.py linguist-language=python
