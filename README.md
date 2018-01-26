@@ -1,3 +1,7 @@
+# Human Body Motion Tracking Using Magnetometer & Ellipsoid Fitting Algorithm
+
+## A Short Tutorial on Software/Hardware Setups
+
 How to install gcc and openocd successfully?
 
 	1. Install git by running:
