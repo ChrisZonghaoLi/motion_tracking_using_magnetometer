@@ -151,5 +151,4 @@ from Kinectic Reality (http://www.kineticreality.com/), who is also our industri
 This project was placed 2nd among 47 groups in the final capstone project competition in 2017.
 
 ## 5. Video
-You are also welcome to take a look at the video on this project.
-[linkname](https://www.youtube.com/watch?v=61_5dSP1mHw&t=2s)
+You are also welcome to take a look at the video on this project: https://www.youtube.com/watch?v=61_5dSP1mHw&t=2s
