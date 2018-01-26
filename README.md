@@ -1,6 +1,24 @@
 # Human Body Motion Tracking Using Magnetometer & Ellipsoid Fitting Algorithm
 
-## A Short Tutorial on Software/Hardware Setups
+## 1. Introduction
+
+Tracking human body motion has multiple applications in robotics, fitness, and medical 
+fields. The purpose of this project is to obtain magnetometer (sensor) data and improve its 
+reliability for accurately modeling the human body motion. Spatial tracking is achieved by 
+using a low cost inertial measurement unit (IMU), which is the integration of an 
+accelerometer, a gyroscope, and a magnetometer. Inevitably, the magnetometer readings 
+cannot be accurate due to hard iron and soft iron errors. Hard iron errors are created by 
+ferromagnetic materials that have a fixed spatial relationship with the magnetometer in the 
+IMU, while soft iron errors are created by ferromagnetic materials that have a variable spatial 
+relationship with the IMU. This project focusses on optimizing the spatial tracking algorithms 
+and calibration methods for a magnetometer to compensate these errors. 
+
+## 2. Ellipsoid Fitting Algorithm
+
+You are welcome to read more details on this from either the papers inside the folder "papers",
+or check out a condensed derivation of it from my report on my site: www.zonghaoli/com/capstone_project
+
+## 3. A Short Tutorial on Software/Hardware Setups
 
 How to install gcc and openocd successfully?
 
@@ -124,3 +142,14 @@ To enable serial port on bluetooth communication:
 	~$ sudo rfcomm bind /dev/rfcomm0 <Device MAC address> 1
 	~$ ls -l /dev/rfcomm0
 	crw-rw---- 1 root dialout 216, 0 2008-12-14 23:15 /dev/rfcomm0
+
+## 4. Acknowledgements
+
+The author here would like to thank Vipul Vishnoi and Bernie Wu for the excellent teamwork,
+Dr. Thomas Johnsone (http://www.mtl.ok.ubc.ca/) for the supervision, and the technical supports
+from Kinectic Reality (http://www.kineticreality.com/), who is also our industrial collaborator. 
+This project was placed 2nd among 47 groups in the final capstone project competition in 2017.
+
+## 5. Video
+You are also welcome to take a look at the video on this project.
+[linkname](https://www.youtube.com/watch?v=61_5dSP1mHw&t=2s)
