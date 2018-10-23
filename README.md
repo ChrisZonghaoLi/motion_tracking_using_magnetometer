@@ -146,9 +146,9 @@ To enable serial port on bluetooth communication:
 ## 4. Acknowledgements
 
 The author here would like to thank Vipul Vishnoi and Bernie Wu for the excellent teamwork,
-Dr. Thomas Johnsone (http://www.mtl.ok.ubc.ca/) for the supervision, and the technical supports
+Dr. Thomas Johnson (http://www.mtl.ok.ubc.ca/) for the supervision, and the technical supports
 from Kinectic Reality (http://www.kineticreality.com/), who is also our industrial collaborator. 
 This project was placed 2nd among 47 groups in the final capstone project competition in 2017.
 
-## 5. Video
+## 5. Video Demo
 You are also welcome to take a look at the video on this project: https://www.youtube.com/watch?v=61_5dSP1mHw&t=
