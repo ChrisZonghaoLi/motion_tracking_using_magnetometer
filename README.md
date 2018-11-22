@@ -16,7 +16,7 @@ and calibration methods for a magnetometer to compensate these errors.
 ## 2. Ellipsoid Fitting Algorithm
 
 You are welcome to read more details on this from either the papers inside the folder "papers",
-or check out a condensed derivation of it from my report on my site: www.zonghaoli/com/capstone_project
+or check out a condensed derivation of it from my report on my site: www.zonghaoli.com/capstone_project
 
 ## 3. A Short Tutorial on Software/Hardware Setups
 
